@@ -1,0 +1,24 @@
+version: '3.1'
+
+services:
+  wordpress:
+    image: wordpress:latest
+    ports:
+      - "8001:80"
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_NAME: kirayepe_db
+      WORDPRESS_DB_USER: kirayepe_user
+      WORDPRESS_DB_PASSWORD: supersecret
+    volumes:
+      - ./wp-data:/var/www/html
+
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: kirayepe_db
+      MYSQL_USER: kirayepe_user
+      MYSQL_PASSWORD: supersecret
+      MYSQL_ROOT_PASSWORD: rootpass
+    volumes:
+      - ./db-data:/var/lib/mysql
