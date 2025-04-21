@@ -1,0 +1,195 @@
+2025-04-19T10:48:54+00:00 ERROR Key Id and Key Secret are required.
+2025-04-19T10:48:54+00:00 INFO Trying to create one_cc_address_sync_cron
+2025-04-19T10:48:54+00:00 INFO Failed to create one_cc_address_sync_cron as invalid one cc merchant
+2025-04-19T10:48:54+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: cancelled, message: invalid_1cc_merchant
+2025-04-19T10:48:54+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2025-04-19T10:48:54+00:00 INFO updateAddressSyncCronData: status=cancelled, message=invalid_1cc_merchant, cronStatus=deleted
+2025-04-19T10:48:54+00:00 INFO updateAddressSyncCronData:530 - Updating option: ONE_CC_ADDRESS_SYNC_CRON_HOOK
+2025-04-19T10:48:54+00:00 INFO updateAddressSyncCronData:532 -  Successfully Updated Option: ONE_CC_ADDRESS_SYNC_CRON_HOOK
+2025-04-19T10:48:54+00:00 INFO create one_cc_plugin_sync_cron successful
+2025-04-19T10:52:06+00:00 INFO Called process_payment with params order_id 35
+2025-04-19T10:52:06+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 35
+2025-04-19T10:52:06+00:00 INFO getRazorpayPaymentParams 35
+2025-04-19T10:52:06+00:00 INFO createOrGetRazorpayOrderId 35 and is1ccCheckout is set to no
+2025-04-19T10:52:06+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 35 and is_magic_checkout_order is set to no
+2025-04-19T10:52:06+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id35
+2025-04-19T10:52:06+00:00 INFO Called createRazorpayOrderId with params orderId 35 and sessionKey razorpay_order_id35
+2025-04-19T10:52:06+00:00 INFO Called getOrderCreationData with params orderId 35
+2025-04-19T10:52:06+00:00 INFO Called getOrderCreationData with params orderId 35 and is1ccOrder is set to no
+2025-04-19T10:52:06+00:00 INFO For order 35
+2025-04-19T10:52:06+00:00 INFO {"receipt":"35","amount":100000,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"35"}}
+2025-04-19T10:52:07+00:00 INFO rzp order error Authentication failed
+2025-04-19T11:01:52+00:00 ERROR Key Id and Key Secret are required.
+2025-04-19T11:01:52+00:00 INFO Trying to create one_cc_address_sync_cron
+2025-04-19T11:01:52+00:00 INFO Failed to create one_cc_address_sync_cron as invalid one cc merchant
+2025-04-19T11:01:52+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: cancelled, message: invalid_1cc_merchant
+2025-04-19T11:01:52+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2025-04-19T11:01:52+00:00 INFO updateAddressSyncCronData: status=cancelled, message=invalid_1cc_merchant, cronStatus=deleted
+2025-04-19T11:01:52+00:00 INFO create one_cc_plugin_sync_cron successful
+2025-04-19T11:23:09+00:00 ERROR Could not enable webhook for localhost
+2025-04-19T11:23:09+00:00 INFO Trying to create one_cc_address_sync_cron
+2025-04-19T11:23:09+00:00 INFO Failed to create one_cc_address_sync_cron as invalid one cc merchant
+2025-04-19T11:23:09+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: cancelled, message: invalid_1cc_merchant
+2025-04-19T11:23:09+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2025-04-19T11:23:09+00:00 INFO updateAddressSyncCronData: status=cancelled, message=invalid_1cc_merchant, cronStatus=deleted
+2025-04-19T11:23:09+00:00 INFO create one_cc_plugin_sync_cron successful
+2025-04-19T11:23:47+00:00 INFO Called process_payment with params order_id 35
+2025-04-19T11:23:47+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 35
+2025-04-19T11:23:47+00:00 INFO getRazorpayPaymentParams 35
+2025-04-19T11:23:47+00:00 INFO createOrGetRazorpayOrderId 35 and is1ccCheckout is set to no
+2025-04-19T11:23:47+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 35 and is_magic_checkout_order is set to no
+2025-04-19T11:23:47+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id35
+2025-04-19T11:23:47+00:00 INFO Called createRazorpayOrderId with params orderId 35 and sessionKey razorpay_order_id35
+2025-04-19T11:23:47+00:00 INFO Called getOrderCreationData with params orderId 35
+2025-04-19T11:23:47+00:00 INFO Called getOrderCreationData with params orderId 35 and is1ccOrder is set to no
+2025-04-19T11:23:47+00:00 INFO For order 35
+2025-04-19T11:23:47+00:00 INFO {"receipt":"35","amount":100000,"currency":"INR","payment_capture":0,"app_offer":0,"notes":{"woocommerce_order_number":"35"}}
+2025-04-19T11:23:48+00:00 INFO For order session key razorpay_order_id35
+2025-04-19T11:24:40+00:00 INFO Called check_razorpay_response: wc_order_K02UmCTeU44Bp
+2025-04-19T11:24:40+00:00 INFO HPOS is enabled and order status: pending
+2025-04-19T11:24:40+00:00 INFO Get order id in check_razorpay_response: orderId 35
+2025-04-19T11:24:40+00:00 INFO verifySignature orderId: 35
+2025-04-19T11:24:40+00:00 INFO verifySignature attr
+2025-04-19T11:24:40+00:00 INFO {"razorpay_payment_id":"pay_QKtm0yTO55sXHR","razorpay_signature":"dd3e9d7b7184b459dad319b9b5e26792d972f57b4aebb15a6c514b83aa2dc0c0","razorpay_order_id":"order_QKtlJWojpKTpoB"}
+2025-04-19T11:24:40+00:00 INFO updateOrder orderId: 35 , razorpayPaymentId: pay_QKtm0yTO55sXHR , success: 1
+2025-04-19T11:24:40+00:00 INFO Order details check initiated step 1 for the orderId: 35
+2025-04-19T11:24:40+00:00 INFO Woocommerce orderId: 35 processed through callback
+2025-04-19T11:31:06+00:00 INFO Called process_payment with params order_id 38
+2025-04-19T11:31:06+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 38
+2025-04-19T11:31:07+00:00 INFO getRazorpayPaymentParams 38
+2025-04-19T11:31:07+00:00 INFO createOrGetRazorpayOrderId 38 and is1ccCheckout is set to no
+2025-04-19T11:31:07+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 38 and is_magic_checkout_order is set to no
+2025-04-19T11:31:07+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id38
+2025-04-19T11:31:07+00:00 INFO Called createRazorpayOrderId with params orderId 38 and sessionKey razorpay_order_id38
+2025-04-19T11:31:07+00:00 INFO Called getOrderCreationData with params orderId 38
+2025-04-19T11:31:07+00:00 INFO Called getOrderCreationData with params orderId 38 and is1ccOrder is set to no
+2025-04-19T11:31:07+00:00 INFO For order 38
+2025-04-19T11:31:07+00:00 INFO {"receipt":"38","amount":50000,"currency":"INR","payment_capture":0,"app_offer":0,"notes":{"woocommerce_order_number":"38"}}
+2025-04-19T11:31:07+00:00 INFO For order session key razorpay_order_id38
+2025-04-19T11:31:33+00:00 INFO Called check_razorpay_response: wc_order_8v9IaiHgKsrBg
+2025-04-19T11:31:33+00:00 INFO HPOS is enabled and order status: pending
+2025-04-19T11:31:33+00:00 INFO Get order id in check_razorpay_response: orderId 38
+2025-04-19T11:31:33+00:00 INFO verifySignature orderId: 38
+2025-04-19T11:31:33+00:00 INFO verifySignature attr
+2025-04-19T11:31:33+00:00 INFO {"razorpay_payment_id":"pay_QKttIKj6cxHQJD","razorpay_signature":"0a70e046ed0e56a85af1e8bfc3fc5c1eff645b60501fc1d3f124705c2dc6fc6e","razorpay_order_id":"order_QKtt2LYqUsUr21"}
+2025-04-19T11:31:33+00:00 INFO updateOrder orderId: 38 , razorpayPaymentId: pay_QKttIKj6cxHQJD , success: 1
+2025-04-19T11:31:33+00:00 INFO Order details check initiated step 1 for the orderId: 38
+2025-04-19T11:31:34+00:00 INFO Woocommerce orderId: 38 processed through callback
+2025-04-19T11:34:43+00:00 ERROR Could not enable webhook for localhost
+2025-04-19T11:34:43+00:00 INFO Trying to create one_cc_address_sync_cron
+2025-04-19T11:34:43+00:00 INFO Failed to create one_cc_address_sync_cron as invalid one cc merchant
+2025-04-19T11:34:43+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: cancelled, message: invalid_1cc_merchant
+2025-04-19T11:34:43+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2025-04-19T11:34:43+00:00 INFO updateAddressSyncCronData: status=cancelled, message=invalid_1cc_merchant, cronStatus=deleted
+2025-04-19T11:34:43+00:00 INFO create one_cc_plugin_sync_cron successful
+2025-04-19T15:31:28+00:00 INFO Trying to create one_cc_address_sync_cron
+2025-04-19T15:31:28+00:00 INFO Failed to create one_cc_address_sync_cron as invalid one cc merchant
+2025-04-19T15:31:28+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: cancelled, message: invalid_1cc_merchant
+2025-04-19T15:31:28+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2025-04-19T15:31:28+00:00 INFO updateAddressSyncCronData: status=cancelled, message=invalid_1cc_merchant, cronStatus=deleted
+2025-04-19T15:31:28+00:00 INFO create one_cc_plugin_sync_cron successful
+2025-04-19T19:11:59+00:00 INFO Called process_payment with params order_id 92
+2025-04-19T19:11:59+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 92
+2025-04-19T19:11:59+00:00 INFO getRazorpayPaymentParams 92
+2025-04-19T19:11:59+00:00 INFO createOrGetRazorpayOrderId 92 and is1ccCheckout is set to no
+2025-04-19T19:11:59+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 92 and is_magic_checkout_order is set to no
+2025-04-19T19:11:59+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id92
+2025-04-19T19:11:59+00:00 INFO Called createRazorpayOrderId with params orderId 92 and sessionKey razorpay_order_id92
+2025-04-19T19:11:59+00:00 INFO Called getOrderCreationData with params orderId 92
+2025-04-19T19:11:59+00:00 INFO Called getOrderCreationData with params orderId 92 and is1ccOrder is set to no
+2025-04-19T19:11:59+00:00 INFO For order 92
+2025-04-19T19:11:59+00:00 INFO {"receipt":"92","amount":6000,"currency":"INR","payment_capture":0,"app_offer":0,"notes":{"woocommerce_order_number":"92"}}
+2025-04-19T19:12:00+00:00 INFO For order session key razorpay_order_id92
+2025-04-19T19:13:22+00:00 INFO Called process_payment with params order_id 92
+2025-04-19T19:13:22+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 92
+2025-04-19T19:13:22+00:00 INFO getRazorpayPaymentParams 92
+2025-04-19T19:13:22+00:00 INFO createOrGetRazorpayOrderId 92 and is1ccCheckout is set to no
+2025-04-19T19:13:22+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 92 and is_magic_checkout_order is set to no
+2025-04-19T19:13:22+00:00 INFO razorpayOrderId order_QL1jsqgAeBLg3u | sessionKey razorpay_order_id92
+2025-04-19T19:13:22+00:00 INFO Called verifyOrderAmount with params orderId 92 and rzporderId order_QL1jsqgAeBLg3u
+2025-04-19T19:13:23+00:00 INFO Called getOrderCreationData with params orderId 92
+2025-04-19T19:13:23+00:00 INFO Called getOrderCreationData with params orderId 92 and is1ccOrder is set to no
+2025-04-19T19:14:09+00:00 INFO Called check_razorpay_response: wc_order_mkOof7w0lcAJm
+2025-04-19T19:14:09+00:00 INFO HPOS is enabled and order status: pending
+2025-04-19T19:14:09+00:00 INFO Get order id in check_razorpay_response: orderId 92
+2025-04-19T19:14:09+00:00 INFO verifySignature orderId: 92
+2025-04-19T19:14:09+00:00 INFO verifySignature attr
+2025-04-19T19:14:09+00:00 INFO {"razorpay_payment_id":"pay_QL1lxVXIeyJIA7","razorpay_signature":"406932eefa97946bf8db0e4c3843b4d0dfa95fd4dbf16d6353a06cc5244613aa","razorpay_order_id":"order_QL1jsqgAeBLg3u"}
+2025-04-19T19:14:09+00:00 INFO updateOrder orderId: 92 , razorpayPaymentId: pay_QL1lxVXIeyJIA7 , success: 1
+2025-04-19T19:14:09+00:00 INFO Order details check initiated step 1 for the orderId: 92
+2025-04-19T19:14:12+00:00 INFO Woocommerce orderId: 92 processed through callback
+2025-04-19T19:24:19+00:00 INFO Called process_payment with params order_id 95
+2025-04-19T19:24:19+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 95
+2025-04-19T19:24:20+00:00 INFO getRazorpayPaymentParams 95
+2025-04-19T19:24:20+00:00 INFO createOrGetRazorpayOrderId 95 and is1ccCheckout is set to no
+2025-04-19T19:24:20+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 95 and is_magic_checkout_order is set to no
+2025-04-19T19:24:20+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id95
+2025-04-19T19:24:20+00:00 INFO Called createRazorpayOrderId with params orderId 95 and sessionKey razorpay_order_id95
+2025-04-19T19:24:20+00:00 INFO Called getOrderCreationData with params orderId 95
+2025-04-19T19:24:20+00:00 INFO Called getOrderCreationData with params orderId 95 and is1ccOrder is set to no
+2025-04-19T19:24:20+00:00 INFO For order 95
+2025-04-19T19:24:20+00:00 INFO {"receipt":"95","amount":12000,"currency":"INR","payment_capture":0,"app_offer":0,"notes":{"woocommerce_order_number":"95"}}
+2025-04-19T19:24:20+00:00 INFO For order session key razorpay_order_id95
+2025-04-19T19:25:07+00:00 INFO Called check_razorpay_response: wc_order_pfiSDMhatdKXn
+2025-04-19T19:25:07+00:00 INFO HPOS is enabled and order status: pending
+2025-04-19T19:25:07+00:00 INFO Get order id in check_razorpay_response: orderId 95
+2025-04-19T19:25:07+00:00 INFO verifySignature orderId: 95
+2025-04-19T19:25:07+00:00 INFO verifySignature attr
+2025-04-19T19:25:07+00:00 INFO {"razorpay_payment_id":"pay_QL1xXPiIwlrycm","razorpay_signature":"45db7f8131095955d8e6681cbc5e08fed98852381567838b0a0c39fbba1e5779","razorpay_order_id":"order_QL1wuSz9YZp7NL"}
+2025-04-19T19:25:07+00:00 INFO updateOrder orderId: 95 , razorpayPaymentId: pay_QL1xXPiIwlrycm , success: 1
+2025-04-19T19:25:07+00:00 INFO Order details check initiated step 1 for the orderId: 95
+2025-04-19T19:25:11+00:00 INFO Woocommerce orderId: 95 processed through callback
+2025-04-19T22:45:02+00:00 INFO Called process_payment with params order_id 106
+2025-04-19T22:45:02+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 106
+2025-04-19T22:45:02+00:00 INFO getRazorpayPaymentParams 106
+2025-04-19T22:45:02+00:00 INFO createOrGetRazorpayOrderId 106 and is1ccCheckout is set to no
+2025-04-19T22:45:02+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 106 and is_magic_checkout_order is set to no
+2025-04-19T22:45:02+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id106
+2025-04-19T22:45:02+00:00 INFO Called createRazorpayOrderId with params orderId 106 and sessionKey razorpay_order_id106
+2025-04-19T22:45:02+00:00 INFO Called getOrderCreationData with params orderId 106
+2025-04-19T22:45:02+00:00 INFO Called getOrderCreationData with params orderId 106 and is1ccOrder is set to no
+2025-04-19T22:45:02+00:00 INFO For order 106
+2025-04-19T22:45:02+00:00 INFO {"receipt":"106","amount":56500,"currency":"INR","payment_capture":0,"app_offer":1,"notes":{"woocommerce_order_number":"106"}}
+2025-04-19T22:45:03+00:00 INFO For order session key razorpay_order_id106
+2025-04-19T22:45:35+00:00 INFO Called check_razorpay_response: wc_order_AJJ2S56cU4FUI
+2025-04-19T22:45:35+00:00 INFO HPOS is enabled and order status: pending
+2025-04-19T22:45:35+00:00 INFO Get order id in check_razorpay_response: orderId 106
+2025-04-19T22:45:35+00:00 INFO verifySignature orderId: 106
+2025-04-19T22:45:35+00:00 INFO verifySignature attr
+2025-04-19T22:45:35+00:00 INFO {"razorpay_payment_id":"pay_QL5NIrtVnM13zX","razorpay_signature":"789bd77cbbc4b6e4e92f44786bf630b233fc868605dfc16a0df323552ddbaa45","razorpay_order_id":"order_QL5MweSmruqlPA"}
+2025-04-19T22:45:35+00:00 INFO updateOrder orderId: 106 , razorpayPaymentId: pay_QL5NIrtVnM13zX , success: 1
+2025-04-19T22:45:35+00:00 INFO Order details check initiated step 1 for the orderId: 106
+2025-04-19T22:45:39+00:00 INFO Woocommerce orderId: 106 processed through callback
+2025-04-19T22:52:11+00:00 INFO Called process_payment with params order_id 114
+2025-04-19T22:52:11+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 114
+2025-04-19T22:52:11+00:00 INFO getRazorpayPaymentParams 114
+2025-04-19T22:52:11+00:00 INFO createOrGetRazorpayOrderId 114 and is1ccCheckout is set to no
+2025-04-19T22:52:11+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 114 and is_magic_checkout_order is set to no
+2025-04-19T22:52:11+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id114
+2025-04-19T22:52:11+00:00 INFO Called createRazorpayOrderId with params orderId 114 and sessionKey razorpay_order_id114
+2025-04-19T22:52:11+00:00 INFO Called getOrderCreationData with params orderId 114
+2025-04-19T22:52:11+00:00 INFO Called getOrderCreationData with params orderId 114 and is1ccOrder is set to no
+2025-04-19T22:52:11+00:00 INFO For order 114
+2025-04-19T22:52:11+00:00 INFO {"receipt":"114","amount":1750000,"currency":"INR","payment_capture":0,"app_offer":0,"notes":{"woocommerce_order_number":"114"}}
+2025-04-19T22:52:11+00:00 INFO For order session key razorpay_order_id114
+2025-04-19T22:52:38+00:00 INFO Called check_razorpay_response: wc_order_nMjYnrUCfSka5
+2025-04-19T22:52:38+00:00 INFO HPOS is enabled and order status: pending
+2025-04-19T22:52:38+00:00 INFO Get order id in check_razorpay_response: orderId 114
+2025-04-19T22:52:38+00:00 INFO verifySignature orderId: 114
+2025-04-19T22:52:38+00:00 INFO verifySignature attr
+2025-04-19T22:52:38+00:00 INFO {"razorpay_payment_id":"pay_QL5UjjuhCDoIFc","razorpay_signature":"1248c7d9ac5ea8e06a87f5bdc6b6577ce16ef75f1e37cab31622138b5f8a11b8","razorpay_order_id":"order_QL5UTitIWO2qhe"}
+2025-04-19T22:52:38+00:00 INFO updateOrder orderId: 114 , razorpayPaymentId: pay_QL5UjjuhCDoIFc , success: 1
+2025-04-19T22:52:38+00:00 INFO Order details check initiated step 1 for the orderId: 114
+2025-04-19T22:52:40+00:00 INFO Woocommerce orderId: 114 processed through callback
+2025-04-19T22:56:40+00:00 INFO Called process_payment with params order_id 115
+2025-04-19T22:56:40+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 115
+2025-04-19T22:56:40+00:00 INFO getRazorpayPaymentParams 115
+2025-04-19T22:56:40+00:00 INFO createOrGetRazorpayOrderId 115 and is1ccCheckout is set to no
+2025-04-19T22:56:40+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 115 and is_magic_checkout_order is set to no
+2025-04-19T22:56:40+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id115
+2025-04-19T22:56:40+00:00 INFO Called createRazorpayOrderId with params orderId 115 and sessionKey razorpay_order_id115
+2025-04-19T22:56:40+00:00 INFO Called getOrderCreationData with params orderId 115
+2025-04-19T22:56:40+00:00 INFO Called getOrderCreationData with params orderId 115 and is1ccOrder is set to no
+2025-04-19T22:56:40+00:00 INFO For order 115
+2025-04-19T22:56:40+00:00 INFO {"receipt":"115","amount":2200,"currency":"INR","payment_capture":0,"app_offer":0,"notes":{"woocommerce_order_number":"115"}}
+2025-04-19T22:56:40+00:00 INFO For order session key razorpay_order_id115
